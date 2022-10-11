@@ -1,0 +1,65 @@
+*
+.contenedor-principal {
+    position: absolute;
+    height: 45%;
+    background-image: url("https://www.intec.edu.do/images/news/INTEC-12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+}
+
+.bienvenido1 {
+    margin: -45%;
+    width: 50%;
+}
+
+.texto-bienvenida1 {
+    justify-content: center;
+}
+
+.bienvenido-text1 {
+    color: black;
+}
+
+.menu1 {
+    background-color: #565656;
+    width: 20%;
+    height: 100vh;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.intec {
+    height: 25px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.encabezado {
+    display: flex;
+    margin-left: 80px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    padding: 5px;
+    padding-left: 30px;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.menu-item-hijo {
+    margin-left: 10%;
+}
+
+
+.menu-item-hijo:hover {
+    color: red;
+}
+

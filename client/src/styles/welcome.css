@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-bar {
+    height: 8vh;
+    width: auto;
+    background-color: #565656;
+}
+
+.buttons {
+    display: inline-flex;
+    margin-left: 90%;
+    margin-top: 2.5vh;
+}
+
+.button-login {
+    background-color: red;
+    color: white;
+    width: 130px;
+    height: 28px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.button-login:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bienvenido {
+    position: relative;
+    height: 42vh;
+    background-image: url("https://www.intec.edu.do/images/news/INTEC-12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    z-index: 10;
+    font-size: 80px;
+}
+
+.button-login a {
+    text-decoration: none;
+    color: white;
+}
+
+.bienvenido-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+
+.text, .bienvenido-text {
+    color: black;
+    margin-top: 3vh;
+    width: 50%;
+    
+}
+
+.texto-bienvenida {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-bar {
+    margin-left: 0%;
+    margin-top: -81vh;
+    position: absolute;
+    height: 100vh;
+    width: 30vh;
+    background-color: #565656;
+    color: white;
+}
+
+.menu {
+    margin-top: 8vh;
+    margin-left: 2vh;
+    font-family: Georgia, serif;
+    cursor: pointer;
+
+}
+
+.menu-item, .menu-item-hijo {
+    padding: 3px;
+}
+
+i {
+    padding: 7px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .header-bar {
+        height: 55px;
+        width: auto;
+    }
+    
+    .buttons {
+        display: inline-flex;
+        margin-left: 70%;
+    }
+    
+    .button-login {
+        width: 110px;
+        height: 35px;
+    }
+
+    .button-login:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 40px;
+        align-items: center;
+    }
+}
